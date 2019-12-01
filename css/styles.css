@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+}
+.mario img{
+    height: 170px;
+    width: 130px;
+    object-fit: cover;
+    top:0px;
+    left: 0px;
+}
+
+.coin img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;   
+}
+
+img{
+    position: absolute;
+    top:250px;
+    left:300px;
+}
+
+.score{
+    background: #DFAF2B;
+    padding: 2em;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    opacity: 0.55;
+    text-align: center;
+
+}
+
+.restart-btn{
+    background: #2ecc71;
+    opacity: 1;
+    padding: 0.7em;
+    border: 1px solid black;
+    transition: transform 400ms;
+}
+
+.restart-btn:hover{
+    transform: scale(1.12);
+    font-weight: bold;
+}
